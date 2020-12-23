@@ -93,7 +93,7 @@ class truckCar: Car {
 }
 
 class sportCar: Car {
-    var maxSpeed: Int
+    var maxSpeed: Int //не совсем отличительное свойство, однако для грузовика максимальная скорость не совсем интересна
     
     init(brand: Brand, color: Color, yearOfProduction: Int, maxSpeed: Int, isEngineOn: Bool, areWindowsOpen: Bool, currentSpeed: Int) {
         self.maxSpeed = maxSpeed
@@ -115,11 +115,11 @@ class sportCar: Car {
 
 //3. Взять из прошлого урока enum с действиями над автомобилем. Подумать, какие особенные действия имеет trunkCar, а какие – sportCar. Добавить эти действия в перечисление.
 
-    //added starting engine for all cars. added loading and emptying of the truck's trunk
+    //added starting engine for all cars. added loading and emptying of the truck's trunk, added boosting speed for sport car
 
 //4. В каждом подклассе переопределить метод действия с автомобилем в соответствии с его классом.
 
-    //added boosting speed for sport car
+    //added loading and emptying of the truck's trunk, added boosting speed for sport car
 
 //5. Создать несколько объектов каждого класса. Применить к ним различные действия.
 
